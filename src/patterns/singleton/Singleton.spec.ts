@@ -5,11 +5,6 @@ describe('Singleton', () => {
     const instanceA = Singleton.getInstance()
     const instanceB = Singleton.getInstance()
 
-    console.log({
-      instanceA: instanceA.getInstanceId(),
-      instanceB: instanceB.getInstanceId()
-    });
-
     expect(instanceA.getInstanceId()).toBe(instanceB.getInstanceId())
   })
 

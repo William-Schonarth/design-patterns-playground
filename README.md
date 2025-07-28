@@ -24,6 +24,7 @@ src/
 - [x] Adapter
 - [x] Bridge
 - [x] Builder
+- [x] Composite
 - [x] Factory Method
 - [x] Singleton
 

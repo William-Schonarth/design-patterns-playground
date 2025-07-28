@@ -6,19 +6,19 @@ interface Transport {
 
 class Truck implements Transport {
   deliver(): string {
-    return 'Truck delivery'
+    return "Truck delivery"
   }
 }
 
 class Ship implements Transport {
   deliver(): string {
-    return 'Ship delivery'
+    return "Ship delivery"
   }
 }
 
 export enum TransportType {
-  Truck = 'truck',
-  Ship = 'ship',
+  Truck = "truck",
+  Ship = "ship",
 }
 
 export class TransportFactory {

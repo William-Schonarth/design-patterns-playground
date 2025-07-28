@@ -26,21 +26,21 @@ interface FurnitureFactory {
 
 class VintageChair implements Chair {
   sit(): string {
-    return 'Sitting on a vintage chair'
+    return "Sitting on a vintage chair"
   }
 }
 
 class VintageTable implements Table {
   constructor(
     public shape: TableShape = TableShape.Square,
-    public hasDrawers: boolean = false
+    public hasDrawers: boolean = false,
   ) {
     this.shape = shape
     this.hasDrawers = hasDrawers
   }
 
   use(): string {
-    return 'Using a vintage table'
+    return "Using a vintage table"
   }
 
   getProps(): string {
@@ -50,21 +50,21 @@ class VintageTable implements Table {
 
 class ModernChair implements Chair {
   sit(): string {
-    return 'Sitting on a modern chair'
+    return "Sitting on a modern chair"
   }
 }
 
 class ModernTable implements Table {
   constructor(
     public shape: TableShape = TableShape.Square,
-    public hasDrawers: boolean = false
+    public hasDrawers: boolean = false,
   ) {
     this.shape = shape
     this.hasDrawers = hasDrawers
   }
 
   use(): string {
-    return 'Using a modern table'
+    return "Using a modern table"
   }
 
   getProps(): string {

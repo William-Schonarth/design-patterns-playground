@@ -1,5 +1,6 @@
 interface Document {
   clone(): Document
+
   print(): string
 }
 
@@ -8,16 +9,11 @@ export class Proposal implements Document {
     public clientName: string,
     public value: number,
     public content: string,
-    public version: number = 1
+    public version: number = 1,
   ) {}
 
   clone(): Proposal {
-    return new Proposal(
-      this.clientName,
-      this.value,
-      this.content,
-      this.version + 1
-    )
+    return new Proposal(this.clientName, this.value, this.content, this.version + 1)
   }
 
   print(): string {

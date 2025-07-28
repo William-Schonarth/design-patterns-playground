@@ -21,6 +21,6 @@ export class Singleton {
   }
 
   hello() {
-    return 'Hello from Singleton!'
+    return "Hello from Singleton!"
   }
 }

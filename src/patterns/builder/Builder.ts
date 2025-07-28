@@ -1,10 +1,10 @@
 // ref: https://refactoring.guru/pt-br/design-patterns/builder
 
 class Car {
-  brand: string = 'Fiat'
-  model: string = 'Uno'
-  color: string = 'Red'
-  engine: string = '1.0'
+  brand: string = "Fiat"
+  model: string = "Uno"
+  color: string = "Red"
+  engine: string = "1.0"
   doors: number = 2
 
   specs(): string {
@@ -13,7 +13,7 @@ class Car {
 }
 
 export class CarBuilder {
-  private readonly car: Car;
+  private readonly car: Car
 
   constructor() {
     this.car = new Car()

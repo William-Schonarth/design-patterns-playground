@@ -20,9 +20,10 @@ src/
 
 ## ✅ Implemented Patterns
 
-- [x] Factory Pattern
-- [x] Singleton
+- [x] Abstract Factory
 - [x] Builder
+- [x] Factory Method
+- [x] Singleton
 
 ---
 
@@ -56,4 +57,3 @@ This is a **practical study** project focused on:
 
 - Clear implementation of patterns
 - Unit tests to validate behavior
-- Modular organization per pattern

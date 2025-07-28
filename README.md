@@ -22,6 +22,7 @@ src/
 
 - [x] Abstract Factory
 - [x] Adapter
+- [x] Bridge
 - [x] Builder
 - [x] Factory Method
 - [x] Singleton

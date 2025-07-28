@@ -1,6 +1,6 @@
 import { NewPaymentGateway, OldPaymentGateway, OldPaymentGatewayAdapter } from "./Adapter"
 
-describe('Adapter', () => {
+describe('Adapter Pattern', () => {
   it('should pay using new gateway', () => {
     const payment = new NewPaymentGateway()
 

@@ -21,6 +21,7 @@ src/
 ## ✅ Implemented Patterns
 
 - [x] Abstract Factory
+- [x] Adapter
 - [x] Builder
 - [x] Factory Method
 - [x] Singleton
